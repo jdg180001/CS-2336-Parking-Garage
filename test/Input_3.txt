@@ -1,0 +1,19 @@
+0
+0 0 0
+0
+0 00 000
+0 B 1 2 3
+0 0 -0
+0 M
+
+/* Explaining input:
+
+         0 : use default values for garage size and percentages
+     0 0 0 : switch to smart parking
+         0 : switch to regular
+  0 00 000 : switch to smart
+ 0 B 1 2 3 : switch to regular
+    0 0 -0 : switch to smart
+       0 M : switch to regular
+
+*/

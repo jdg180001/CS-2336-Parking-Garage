@@ -1,0 +1,49 @@
+1
+2
+48
+16
+100
+0
+-1 -2 -3
+1 2 F
+1 F 3
+F 2 3
+F F F
+1 2 3
+0 0 0
+F B 1 0 8
++ F 1 0 8
++ 100 1 0 8
++ B F 0 8
++ B 1 0 8
++ B 1 0 10
++ B 1 0 6
+- B 1 0 4
+
+
+
+/* Explaining input:
+
+          1 : use user values for garage size and percentages
+          2 : 2 levels
+         48 : 48 spaces per level
+         16 : 16 spaces per row (3 rows)
+        100 : 100% large spaces
+          0 : 0% motorcycle spaces (also 0% compact spaces)
+   -1 -2 -3 : Valid input, does nothing because there is nothing to remove yet
+      1 2 F : not 3 integers
+      1 F 3 : not 3 integers
+      F 2 3 : not 3 integers
+      F F F : not 3 integers
+      1 2 3 : Valid input, park 1 bus, 2 cars, 3 motorcycles
+      0 0 0 : Valid input, switch to smart parking
+  F B 1 0 8 :   F is not a '+' '-' or '0'
+  + F 1 0 8 :   F is not a 'B' 'C' or 'M'
++ 100 1 0 8 : 100 is not a 'B' 'C' or 'M'
+  + B F 0 8 : F is not an integer
+  + B 1 0 8 : Valid input, parks a bus.
+  + B 1 0 10: Valid input, does NOT park a bus because there is insufficient room.
+  + B 1 0 6 : Valid input, parks a bus adjacent to the recently parked one.
+  - B 1 0 4 : Valid input, Removes the second  (left) bus without harming the original.
+
+*/

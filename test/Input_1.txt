@@ -1,0 +1,26 @@
+0
+2 30 60
+-1 -10 -20
+0 0 0
++ C 4 0 2
++ B 4 0 4
++ B 3 0 4
+- B 3 0 2
+0
+4 0 -15
+
+
+/* Explaining input:
+
+         0 : use default values for garage size and percentages
+   2 30 60 : park 2 buses, 30 cars, 60 motorcycles
+-1 -10 -20 : unpark 1 bus, 10 cars, 20 motorcycles
+     0 0 0 : switch to smart parking
+ + C 4 0 2 : park a car on level 4, row 0, space 2
+ + B 4 0 4 : park a bus on level 4, row 0, space 4 (I expect this to do nothing because there is not room for a bus after the car we just parked.)
+ + B 3 0 4 : park a bus when there is insufficient room to the right, but sufficient room to the right and left of given index
+ - B 3 0 2 : remove a bus from weird (not an end or the center) index
+         0 : switch back to regular parking
+   4 0 -15 : unpark 15 motorcycles, then park 4 buses (there should only be room for 3, but the program just says "No room." instead of crashing)
+
+*/

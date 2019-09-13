@@ -1,0 +1,253 @@
+Would you like to provide input values? If so, enter '1', otherwise default values will be used.
+0
+
+Proceeding with: 
+   5 levels
+   30 spaces per level
+   10 spaces per row
+   20 percent large spaces
+   60 percent compact spaces
+   20 percent motorcycle spaces
+
+Your empty garage has been generated.
+This garage approximates the number of large, compact, and motorcycle spots from the given percentages.
+
+Level 4:  llllllcccc cccccccccc ccccmmmmmm 
+Level 3:  llllllcccc cccccccccc ccccmmmmmm 
+Level 2:  llllllcccc cccccccccc ccccmmmmmm 
+Level 1:  llllllcccc cccccccccc ccccmmmmmm 
+Level 0:  llllllcccc cccccccccc ccccmmmmmm 
+
+
+Please input 3 integers, separated by spaces.
+
+These numbers represent the number of buses, cars, and motorcycles you would like to park, respectively.
+If you would like to unpark (remove) vehicles, enter negative numbers.
+For example, if I wanted to unpark 4 buses, not change the number of cars, and park 12 motorcycles,
+I would enter "-4 0 12".
+
+Note that unparking occurs first, then parking occurs in the order of bus, car, and motorcycle.
+If you want to park 1 motorcycle before 1 bus and 1 car, please enter "0 0 1", then "1 1 0".
+To switch to smart parking, type "0 0 0".
+
+2 30 60
+Your bus successfully parked.
+Your bus successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+
+Level 4:  llllllcccc cccccccccc ccccMMMMMM 
+Level 3:  llllllcccc ccccccccMM MMMMMMMMMM 
+Level 2:  llllllMMMM MMMMMMMMMM MMMMMMMMMM 
+Level 1:  lBBBBBMMMM MMCCCCCCCC CCCCMMMMMM 
+Level 0:  lBBBBBCCCC CCCCCCCCCC CCCCMMMMMM 
+
+-1 -10 -20
+Your bus successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your car successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+
+Level 4:  llllllcccc cccccccccc ccccMMMMMM 
+Level 3:  llllllcccc ccccccccMM MMMMMMMMMM 
+Level 2:  llllllccMM MMMMMMMMMM MMMMMMMMMM 
+Level 1:  lBBBBBcccc ccCCCCCCCC CCCCmmmmmm 
+Level 0:  llllllcccc ccccccCCCC CCCCmmmmmm 
+
+0 0 0
+Smart Parking: To add or remove a vehicle from a single location,
+type (+ or -), then (B, C, or M), then three integers representing the level, row, and parking space, respectively.
+For example: to remove a bus from the bottom level, the leftmost row, and the leftmost parking space, you could type "- B 0 0 0".
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ C 4 0 2
+
+Attempting to smart park car.
+Level 4:  llClllcccc cccccccccc ccccMMMMMM 
+Level 3:  llllllcccc ccccccccMM MMMMMMMMMM 
+Level 2:  llllllccMM MMMMMMMMMM MMMMMMMMMM 
+Level 1:  lBBBBBcccc ccCCCCCCCC CCCCmmmmmm 
+Level 0:  llllllcccc ccccccCCCC CCCCmmmmmm 
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ B 4 0 4
+
+Attempting to smart park bus.
+Level 4:  llClllcccc cccccccccc ccccMMMMMM 
+Level 3:  llllllcccc ccccccccMM MMMMMMMMMM 
+Level 2:  llllllccMM MMMMMMMMMM MMMMMMMMMM 
+Level 1:  lBBBBBcccc ccCCCCCCCC CCCCmmmmmm 
+Level 0:  llllllcccc ccccccCCCC CCCCmmmmmm 
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ B 3 0 4
+
+Attempting to smart park bus.
+Level 4:  llClllcccc cccccccccc ccccMMMMMM 
+Level 3:  lBBBBBcccc ccccccccMM MMMMMMMMMM 
+Level 2:  llllllccMM MMMMMMMMMM MMMMMMMMMM 
+Level 1:  lBBBBBcccc ccCCCCCCCC CCCCmmmmmm 
+Level 0:  llllllcccc ccccccCCCC CCCCmmmmmm 
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
+- B 3 0 2
+
+Attempting to smart remove bus.
+Level 4:  llClllcccc cccccccccc ccccMMMMMM 
+Level 3:  llllllcccc ccccccccMM MMMMMMMMMM 
+Level 2:  llllllccMM MMMMMMMMMM MMMMMMMMMM 
+Level 1:  lBBBBBcccc ccCCCCCCCC CCCCmmmmmm 
+Level 0:  llllllcccc ccccccCCCC CCCCmmmmmm 
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
+0 M 1 2 3
+0 entered, returning to regular parking.
+Please input 3 integers, separated by spaces.
+These numbers represent the number of buses, cars, and motorcycles you would like to park, respectively.
+If you would like to unpark (remove) vehicles, enter negative numbers.
+4 0 -15
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your motorcycle successfully removed.
+Your bus successfully parked.
+Your bus successfully parked.
+Your bus successfully parked.
+There is no room to park a bus.
+
+Level 4:  llClllcccc cccccccccc ccccMMMMMM 
+Level 3:  lBBBBBcccc ccccccccMM MMMMMMMMMM 
+Level 2:  lBBBBBcccc cccccccccc cccMMMMMMM 
+Level 1:  lBBBBBcccc ccCCCCCCCC CCCCmmmmmm 
+Level 0:  lBBBBBcccc ccccccCCCC CCCCmmmmmm 

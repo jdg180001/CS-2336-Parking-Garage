@@ -1,0 +1,122 @@
+Would you like to provide input values? If so, enter '1', otherwise default values will be used.
+1
+How many levels?
+2
+How many spaces per level?
+48
+How many spaces per row? Be sure this evenly divides the spaces per level.
+16
+What percent of each level's spaces are large spaces? Input between 0 and 100.
+100
+What percent of each level's spaces are motorcycle spaces? Input between 0 and 0
+0
+
+Proceeding with: 
+   2 levels
+   48 spaces per level
+   16 spaces per row
+   100 percent large spaces
+   0 percent compact spaces
+   0 percent motorcycle spaces
+
+Your empty garage has been generated.
+This garage approximates the number of large, compact, and motorcycle spots from the given percentages.
+
+Level 1:  llllllllllllllll llllllllllllllll llllllllllllllll 
+Level 0:  llllllllllllllll llllllllllllllll llllllllllllllll 
+
+
+Please input 3 integers, separated by spaces.
+
+These numbers represent the number of buses, cars, and motorcycles you would like to park, respectively.
+If you would like to unpark (remove) vehicles, enter negative numbers.
+For example, if I wanted to unpark 4 buses, not change the number of cars, and park 12 motorcycles,
+I would enter "-4 0 12".
+
+Note that unparking occurs first, then parking occurs in the order of bus, car, and motorcycle.
+If you want to park 1 motorcycle before 1 bus and 1 car, please enter "0 0 1", then "1 1 0".
+To switch to smart parking, type "0 0 0".
+
+- 1  1 -2 -33 
+No bus found to remove.
+No car found to remove.
+No car found to remove.
+No motorcycle found to remove.
+No motorcycle found to remove.
+No motorcycle found to remove.
+
+Level 1:  llllllllllllllll llllllllllllllll llllllllllllllll 
+Level 0:  llllllllllllllll llllllllllllllll llllllllllllllll 
+
+1 2 F
+Invalid input. Please enter exactly 3 integers separated by spaces.
+1 F 3
+Invalid input. Please enter exactly 3 integers separated by spaces.
+F 2 3
+Invalid input. Please enter exactly 3 integers separated by spaces.
+F F F 
+Invalid input. Please enter exactly 3 integers separated by spaces.
+1 2 3
+Your bus successfully parked.
+Your car successfully parked.
+Your car successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+Your motorcycle successfully parked.
+
+Level 1:  llllllllllllllll llllllllllllllll llllllllllllllll 
+Level 0:  llllllllllllllll llllllllllllllll llllllMMMCCBBBBB 
+
+0 0 0
+Smart Parking: To add or remove a vehicle from a single location,
+type (+ or -), then (B, C, or M), then three integers representing the level, row, and parking space, respectively.
+For example: to remove a bus from the bottom level, the leftmost row, and the leftmost parking space, you could type "- B 0 0 0".
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
+F B 1 0 8
+Invalid input. Continue smart parking.
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ F 1 0 8
+Invalid input. Continue smart parking.
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ 100 1 0 8
+Invalid input. Continue smart parking.
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ B F 0 8
+Invalid input. Continue smart parking.
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ B 1 0 8
+
+Attempting to smart park bus.
+Level 1:  llllllllBBBBBlll llllllllllllllll llllllllllllllll 
+Level 0:  llllllllllllllll llllllllllllllll llllllMMMCCBBBBB 
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ B 1 0 10
+
+Attempting to smart park bus.
+Level 1:  llllllllBBBBBlll llllllllllllllll llllllllllllllll 
+Level 0:  llllllllllllllll llllllllllllllll llllllMMMCCBBBBB 
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
++ B 1 0 6
+
+Attempting to smart park bus.
+Level 1:  lllBBBBBBBBBBlll llllllllllllllll llllllllllllllll 
+Level 0:  llllllllllllllll llllllllllllllll llllllMMMCCBBBBB 
+
+Now using smart park.
+Enter '0' instead of '+' or '-' to return to regular parking.
+- B 1 0 4
+
+Attempting to smart remove bus.
+Level 1:  llllllllBBBBBlll llllllllllllllll llllllllllllllll 
+Level 0:  llllllllllllllll llllllllllllllll llllllMMMCCBBBBB 
+
